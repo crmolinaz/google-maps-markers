@@ -1,0 +1,87 @@
+.usermapthumb .picture_wrapper {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    cursor: pointer;
+}
+
+.mark_labels {
+     color: white;
+     background-color: red;
+     font-family: "Lucida Grande", "Arial", sans-serif;
+     font-size: 14px;
+     text-align: center;
+     width: 28px;
+     white-space: nowrap;
+   }
+   
+.usermappoint {
+    width: 1px;
+    height: 1px;
+    overflow: visible;
+    position: absolute;
+}
+
+.usermapthumb {
+    position: absolute;
+    bottom: -3px;
+    left: -38px;
+    width: 78px;
+    /* height: 120px; */
+    height: 85px;
+}
+
+.clustercount {
+    background: none repeat scroll 0 0 red;
+    border-radius: 8px;
+    color: white;
+    float: right;
+    font: bold 11px "trebuchet MS";
+    min-height: 14px;
+    min-width: 16px;
+    padding: 3px;
+    position: absolute;
+    right: -22px;
+    text-align: center;
+    top: -5px;
+    z-index: 1;
+}
+
+.usermapthumb img.userthumbbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.usermapthumb .picture_wrapper {
+    cursor: pointer;
+    height: 64px;
+    left: 5px;
+    overflow: hidden;
+    position: absolute;
+    top: 5px;
+    width: 86px;
+}
+
+.usermapthumb img.usermapthumbimage {
+    cursor: pointer;
+}
+
+.item-popup {
+    line-height: 42px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.item-popup:first-child{
+    padding-top: 0px;
+}
+
+.modal-body .item-popup:last-child {
+    padding-bottom: 0px !important;
+    border-bottom: 0px !important;
+}
